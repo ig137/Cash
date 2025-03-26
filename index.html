@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ur">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>رمضان ریلیف پیکیج 2025</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>رمضان ریلیف پیکیج 2025</h1>
+    </header>
+
+    <section class="poll-section">
+        <h2>کیا آپ رمضان ریلیف پیکیج سے مطمئن ہیں؟</h2>
+        <form id="pollForm">
+            <input type="radio" name="vote" value="yes" id="yes"><label for="yes">ہاں</label>
+            <input type="radio" name="vote" value="no" id="no"><label for="no">نہیں</label>
+            <button type="submit">ووٹ دیں</button>
+        </form>
+        <p id="pollResult"></p>
+    </section>
+
+    <section class="cnic-section">
+        <h2>اپنا شناختی کارڈ نمبر درج کریں</h2>
+        <form id="cnicForm">
+            <input type="text" id="cnicInput" maxlength="15" placeholder="00000-0000000-0" required>
+            <button type="submit">جمع کریں</button>
+        </form>
+        <p id="cnicError" class="error-message"></p>
+    </section>
+
+    <script src="script.js"></script>
+
+    <!-- PopAds Integration -->
+    <script type="text/javascript">
+        var _pop = _pop || [];
+        _pop.push(['siteId', XXXXX]); // Replace XXXXX with your PopAds Site ID
+        _pop.push(['minBid', 0.000001]);
+        _pop.push(['popundersPerIP', 0]);
+        _pop.push(['delayBetween', 0]);
+        _pop.push(['default', false]);
+        _pop.push(['defaultPerDay', 0]);
+
+        (function() {
+            var pa = document.createElement('script');
+            pa.type = 'text/javascript';
+            pa.async = true;
+            pa.src = '//c1.popads.net/pop.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(pa, s);
+        })();
+    </script>
+
+</body>
+</html>
