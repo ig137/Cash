@@ -3,55 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>رمضان ریلیف پیکیج 2025</title>
+    <title>رمضان پولز</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
     <header>
-        <h1>رمضان ریلیف پیکیج 2025</h1>
+        <h1>رمضان پولز 2025</h1>
     </header>
 
     <section class="poll-section">
         <h2>کیا آپ رمضان ریلیف پیکیج سے مطمئن ہیں؟</h2>
-        <form id="pollForm">
-            <input type="radio" name="vote" value="yes" id="yes"><label for="yes">ہاں</label>
-            <input type="radio" name="vote" value="no" id="no"><label for="no">نہیں</label>
+        <form class="poll-form" data-poll-id="poll1">
+            <input type="radio" name="vote1" value="yes" id="yes1"><label for="yes1">ہاں</label>
+            <input type="radio" name="vote1" value="no" id="no1"><label for="no1">نہیں</label>
             <button type="submit">ووٹ دیں</button>
         </form>
-        <p id="pollResult"></p>
+        <p class="poll-result" id="result1"></p>
     </section>
 
-    <section class="cnic-section">
-        <h2>اپنا شناختی کارڈ نمبر درج کریں</h2>
-        <form id="cnicForm">
-            <input type="text" id="cnicInput" maxlength="15" placeholder="00000-0000000-0" required>
-            <button type="submit">جمع کریں</button>
+    <section class="poll-section">
+        <h2>کیا حکومت کو مزید سبسڈی دینی چاہیے؟</h2>
+        <form class="poll-form" data-poll-id="poll2">
+            <input type="radio" name="vote2" value="yes" id="yes2"><label for="yes2">ہاں</label>
+            <input type="radio" name="vote2" value="no" id="no2"><label for="no2">نہیں</label>
+            <button type="submit">ووٹ دیں</button>
         </form>
-        <p id="cnicError" class="error-message"></p>
+        <p class="poll-result" id="result2"></p>
     </section>
 
     <script src="script.js"></script>
-
-    <!-- PopAds Integration -->
-    <script type="text/javascript">
-        var _pop = _pop || [];
-        _pop.push(['siteId', XXXXX]); // Replace XXXXX with your PopAds Site ID
-        _pop.push(['minBid', 0.000001]);
-        _pop.push(['popundersPerIP', 0]);
-        _pop.push(['delayBetween', 0]);
-        _pop.push(['default', false]);
-        _pop.push(['defaultPerDay', 0]);
-
-        (function() {
-            var pa = document.createElement('script');
-            pa.type = 'text/javascript';
-            pa.async = true;
-            pa.src = '//c1.popads.net/pop.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(pa, s);
-        })();
-    </script>
 
 </body>
 </html>
